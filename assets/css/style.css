@@ -22,7 +22,13 @@
     color: #ffffff !important;
     background-color: transparent;
 }
-
+section {
+    margin-top: 100px !important;
+}
+.section-title {
+    font-weight: bold;
+    font-size: 35px;
+}
 
 
 /* Header */
@@ -49,4 +55,64 @@ header .header-title {
 header .header-description {
     color: white;
     margin: 20px 0 20px 0;
+}
+
+/* My failure */
+.my-failure {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+.my-failure .section-text {
+    margin-top: 100px;
+}
+.my-failure .section-description, .plan-description {
+    margin: 10px 0 10px 0;
+    font-weight: 500;
+    color: rgb(50, 50, 50);
+    letter-spacing: .1px;
+}
+.my-failure .failure-list {
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: rgb(57, 57, 57);
+    letter-spacing: .1px;
+}
+.my-failure i {
+    color: #16D887;
+    margin-right: 5px;
+}
+
+/* My Plans */
+
+.my-plan .plans {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.my-plan .plan {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.10);
+}
+.my-plan .section-title {
+    text-align: center;
+}
+.my-plan .plan-title {
+    text-align: center;
+}
+.my-plan .plan-image{
+    margin: 0 auto !important;
+    height: auto;
+    width: 80px; 
+}
+.my-plan .plan-description {
+    text-align: center;
+}
+.my-plan .section-description {
+    text-align: center;
+    margin: 40px 0 40px 0;
 }
